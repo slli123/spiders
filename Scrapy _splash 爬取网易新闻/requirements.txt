@@ -1,0 +1,3 @@
+Scrapy
+scrapy-splash
+fake-useragent
