@@ -4,7 +4,7 @@
 
 **一个模块化、解耦设计的高效爬虫系统**
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 </div>
@@ -69,7 +69,7 @@
 
 在开始使用本项目前，请确保已安装以下环境：
 
-- <kbd>Python 3.7+</kbd> 或更高版本
+- <kbd>Python 3.10+</kbd> 或更高版本
 - <kbd>Redis</kbd> 数据库
 - <kbd>MySQL</kbd> 数据库（如果需要使用MySQL存储功能）
 
@@ -325,4 +325,5 @@ python data_tools/redis_to_mysql.py
 2. 需要安装项目依赖：`pip install -r requirements.txt`
 3. 确保Redis和MySQL服务已启动并可连接
 4. 根据需要调整爬取频率，避免对目标网站造成过大压力
+
 5. 遵守网站的robots.txt协议和相关法律法规
